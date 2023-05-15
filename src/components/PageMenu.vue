@@ -5,7 +5,7 @@
       @select="RouteToOtherPage"
       background-color="rgb(220, 210, 234)"
       active-text-color="purple"
-      :default-active="1"
+      :default-active="0"
     >
       <el-menu-item index="0">
         <el-image

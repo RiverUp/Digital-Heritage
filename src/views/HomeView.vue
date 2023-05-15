@@ -1,6 +1,8 @@
+<!-- eslint-disable prettier/prettier -->
 <template>
   <page-menu />
   <search-bar />
+  <h4>纪  念  馆</h4>
   <celebraty-memory />
 </template>
 
@@ -19,3 +21,12 @@ export default {
   },
 };
 </script>
+<style scoped>
+h4 {
+  font-family: text;
+  position: absolute;
+  top: 33%;
+  width: 100%;
+  text-align: center;
+}
+</style>
